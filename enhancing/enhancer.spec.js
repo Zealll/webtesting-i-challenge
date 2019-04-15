@@ -38,5 +38,14 @@ it('fail', () => {
     expect(enhancer.fail(item)).toBe(85)
 })
 
+it('get', () => {
+    const item = {
+        name: 'Iron Sword',
+        enhancement: 4
+    }
+
+    expect(enhancer.get(item)).toBe('[+4] Iron Sword')
+})
+
 
 
