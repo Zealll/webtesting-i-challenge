@@ -32,6 +32,6 @@ function get(item) {
   if(item.enhancement === 0) {
     return item.name
   } else {
-    return `[+${item.enhancement}] Iron Sword`
+    return `[+${item.enhancement}] ${item.name}`
   };
 }
